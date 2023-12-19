@@ -8,3 +8,9 @@ My current mods. So far there is:
 I'm working on adding:
 
 * Proximity grenades (Done but I need to upload it and clean it up a bit) 
+
+## Showcase
+
+## Modnames
+
+<img src="https://github.com/WackyModer/Bopl_Mods/blob/main/images/modnames.png?raw=true" alt="Modnames Showcase Image" width="600"/>
