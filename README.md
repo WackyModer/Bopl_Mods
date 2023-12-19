@@ -11,6 +11,6 @@ I'm working on adding:
 
 ## Showcase
 
-## Modnames
+### Modnames
 
 <img src="https://github.com/WackyModer/Bopl_Mods/blob/main/images/modnames.png?raw=true" alt="Modnames Showcase Image" width="600"/>
