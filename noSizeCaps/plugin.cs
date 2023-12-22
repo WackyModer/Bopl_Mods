@@ -1,13 +1,11 @@
 using BepInEx;
 using HarmonyLib;
-using MonoMod.Utils;
 using System.Reflection;
 using BoplFixedMath;
-using static UnityEngine.UI.Image;
 
-namespace noSizeCap
+namespace noSizeCaps
 {
-    [BepInPlugin("com.WackyModer.noSizeCap", "No Size Cap", PluginInfo.PLUGIN_VERSION)]
+    [BepInPlugin("com.WackyModer.noSizeCaps", "No Size Caps", "1.1.0")]
     public class Plugin : BaseUnityPlugin
     {
         private void Awake()
@@ -16,7 +14,7 @@ namespace noSizeCap
             Logger.LogInfo($"Plugin {PluginInfo.PLUGIN_GUID} is loaded!");
 
 
-            Harmony harmony = new Harmony("com.WackyModer.noSizeCap");
+            Harmony harmony = new Harmony("com.WackyModer.noSizeCaps");
 
             MethodInfo original = AccessTools.Method(typeof(PlatformTransform), "Init");
             MethodInfo patch = AccessTools.Method(typeof(myPatches), "Init_plattrans_myplug");
@@ -36,6 +34,8 @@ namespace noSizeCap
             original = AccessTools.Method(typeof(DPhysicsCircle), "Init");
             patch = AccessTools.Method(typeof(myPatches), "Init_dphycirl_myplug");
             harmony.Patch(original, new HarmonyMethod(patch));
+
+            harmony.PatchAll();
         }
     }
     public class myPatches
@@ -67,6 +67,18 @@ namespace noSizeCap
             __instance.MaxScale = (Fix)1000L;
             __instance.MinScale = (Fix)0.00001f;
             return true;
+        }
+    }
+
+
+    [HarmonyPatch(typeof(Player))]
+    [HarmonyPatch("Scale", MethodType.Setter)]
+    public class YourClass_Scale_SetterPatch
+    {
+        static bool Prefix(ref Fix value, ref Fix ___scale)
+        {            
+           ___scale = value;
+            return false;
         }
     }
 }
