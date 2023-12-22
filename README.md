@@ -6,6 +6,7 @@ My current mods. So far there is:
 
 * [Reverse Gust 1.0.0](https://github.com/WackyModer/Bopl_Mods/releases/tag/ReverseGust)
 * [ModNames 1.0.0](https://github.com/WackyModer/Bopl_Mods/releases/tag/ModNames) (Shows currently loaded mods in bottom right of main menu)
+* [NoSizeCaps 1.0.0](https://github.com/WackyModer/Bopl_Mods/releases/tag/NoSizeCaps)
 
 I'm working on adding:
 
