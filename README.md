@@ -1,5 +1,7 @@
 # Bopl_Mods
 
+![GitHub all releases](https://img.shields.io/github/downloads/WackyModer/Bopl_Mods/total?logo=github)
+
 ### [Get mods here](https://github.com/WackyModer/Bopl_Mods/releases)
 
 My current mods. So far there is:
