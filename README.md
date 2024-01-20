@@ -6,10 +6,10 @@
 
 My current mods. So far there is:
 
-* [Dummies 1.0.0](https://github.com/WackyModer/Bopl_Mods/releases/tag/Dummies)
-* [Reverse Gust 1.0.0](https://github.com/WackyModer/Bopl_Mods/releases/tag/ReverseGust)
+* [Dummies 1.0.0](https://github.com/WackyModer/Bopl_Mods/releases/tag/Dummies) (Spawn dummies, press E to spawn them at your cursor)
+* [Reverse Gust 1.0.0](https://github.com/WackyModer/Bopl_Mods/releases/tag/ReverseGust) (Instead of pulling things in it pushes them away when you gust)
 * [ModNames 1.1.0](https://github.com/WackyModer/Bopl_Mods/releases/tag/ModNames_bugfix) (Shows currently loaded mods in bottom right of main menu)
-* [NoSizeCaps 1.1.0](https://github.com/WackyModer/Bopl_Mods/releases/tag/NoSizeCaps_BugFix)
+* [NoSizeCaps 1.1.0](https://github.com/WackyModer/Bopl_Mods/releases/tag/NoSizeCaps_BugFix) (Removes the size caps of the shrink and grow rays)
 * [ArrowWall 1.0.0](https://github.com/WackyModer/Bopl_Mods/releases/tag/ArrowWall) (A wall of arrows when you shoot the bow)
 
 I'm working on adding:
