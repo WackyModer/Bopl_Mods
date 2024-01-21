@@ -1,4 +1,4 @@
-# Bopl_Mods
+# WackyModer's Bopl Mods
 
 ![GitHub all releases](https://img.shields.io/github/downloads/WackyModer/Bopl_Mods/total?logo=github)
 
